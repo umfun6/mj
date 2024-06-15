@@ -11,7 +11,7 @@ export default {
     reset: '重置',
     action: '操作',
     export: '导出',
-    exportSuccess: '导出成功',
+    导出成功: '导出成功',
     import: '导入',
     importSuccess: '导入成功',
     clear: '清空',
@@ -28,99 +28,99 @@ export default {
     unauthorizedTips: '未经授权，请先进行验证。',
     stopResponding: '停止响应',
   },
-  chat: {
+  闲谈: {
     newChatButton: '新建聊天',
     //placeholder: '来说点什么吧...（Shift + Enter = 换行，"/" 触发提示词）',
     placeholder: '可输入说点什么，也可贴截图或拖拽文件（Shift + Enter = 换行，"/" 触发提示词）',
-    placeholderMobile: '来说点什么...',
-    copy: '复制',
-    copied: '复制成功',
-    copyCode: '复制代码',
+    移动电话: '来说点什么...',
+    复制: '复制',
+    复制: '复制成功',
+    复制代码: '复制代码',
     clearChat: '清空会话',
     clearChatConfirm: '是否清空会话?',
-    exportImage: '保存会话到图片',
+    导出图像: '保存会话到图片',
     exportImageConfirm: '是否将会话保存为图片?',
-    exportSuccess: '保存成功',
-    exportFailed: '保存失败',
-    usingContext: '上下文模式',
-    turnOnContext: '当前模式下, 发送消息会携带之前的聊天记录',
-    turnOffContext: '当前模式下, 发送消息不会携带之前的聊天记录',
-    deleteMessage: '删除消息',
-    deleteMessageConfirm: '是否删除此消息?',
-    deleteHistoryConfirm: '确定删除此记录?',
+    成功导出: '保存成功',
+    导出失败: '保存失败',
+    使用上下文: '上下文模式',
+    关闭上下文: '当前模式下,发送消息会携带之前的聊天记录',
+    关闭上下文: '当前模式下,发送消息不会携带之前的聊天记录',
+    删除消息: '删除消息',
+    删除消息确认: '是否删除此消息?',
+    删除历史确认: '确定删除此记录?',
     clearHistoryConfirm: '确定清空记录?',
-    preview: '预览',
+    试映: '预览',
     showRawText: '显示原文',
   },
-  setting: {
-    setting: '设置',
-    general: '总览',
-    advanced: '高级',
-    config: '配置',
+  环境: {
+    环境: '设置',
+    一般: '总览',
+    先进的: '高级',
+    配置: '配置',
     avatarLink: '头像链接',
-    name: '名称',
-    description: '描述',
-    role: '角色设定',
-    temperature: 'Temperature',
-    top_p: 'Top_p',
+    名字: '名称',
+    描述: '描述',
+    作用: '角色设定',
+    温度: “温度”,
+    top_p: ' Top_p ',
     resetUserInfo: '重置用户信息',
-    chatHistory: '聊天记录',
-    theme: '主题',
-    language: '语言',
-    api: 'API',
-    reverseProxy: '反向代理',
-    timeout: '超时',
-    socks: 'Socks',
-    httpsProxy: 'HTTPS Proxy',
-    balance: 'API余额',
-    monthlyUsage: '本月使用量',
+    聊天历史: '聊天记录',
+    主题: '主题',
+    语言: '语言',
+    美国石油学会(American Petroleum Institute): API ',
+    反向推进: '反向代理',
+    超时: '超时',
+    袜子: 袜子,
+    httpsProxy: ' HTTPS代理',
+    平衡: 应用程序接口余额',
+    月度储存: '本月使用量',
   },
-  store: {
-    siderButton: '提示词商店',
-    local: '本地',
-    online: '在线',
-    title: '标题',
-    description: '描述',
-    clearStoreConfirm: '是否清空数据？',
-    importPlaceholder: '请粘贴 JSON 数据到此处',
-    addRepeatTitleTips: '标题重复，请重新输入',
-    addRepeatContentTips: '内容重复：{msg}，请重新输入',
-    editRepeatTitleTips: '标题冲突，请重新修改',
-    editRepeatContentTips: '内容冲突{msg} ，请重新修改',
-    importError: '键值不匹配',
-    importRepeatTitle: '标题重复跳过：{msg}',
-    importRepeatContent: '内容重复跳过：{msg}',
-    onlineImportWarning: '注意：请检查 JSON 文件来源！',
-    downloadError: '请检查网络状态与 JSON 文件有效性',
+  商店: {
+    侧面按钮: '提示',
+    当地的: '本地',
+    在线的: '在线',
+    标题: '标题',
+    描述: '描述',
+    clearStoreConfirm: '是否清空数据?',
+    导入占位符: '请粘贴JSON数据到此处',
+    addRepeatTitleTips: '标题重复,请重新输入',
+    addRepeatContentTips: '内容重复:{msg}，请重新输入',
+    编辑重复提示: '标题冲突,请重新修改',
+    编辑重复内容提示: '内容冲突{msg}，请重新修改',
+    导入错误: '键值不匹配',
+    importRepeatTitle: '标题重复跳过:{msg} ',
+    importRepeatContent: '内容重复跳过:{msg} ',
+    onlineImportWarning: '注意：请检查JSON文件来源!',
+    下载错误: '请检查网络状态与JSON文件有效性',
   },
 
 
   mjset:{
-    server:'服务端'
-    ,about:'关于'
-    ,model:'模型'
-    ,sysname:'AI绘图'
+    计算机网络服务器:'服务端'
+    ,关于；在…各处 ；大约:'关于'
+    ,模型:'模型'
+    ,sysname:人工智能绘图'
   }
 
   ,mjtab:{
-    chat:'对话'
-    ,draw:'绘画'
-    ,drawinfo:'AI绘画 Midjourney引擎'
-    ,gallery:'画廊'
-    ,galleryInfo:'我的画廊'
+    闲谈:'对话'
+    ,画:'绘画'
+    ,drawinfo:人工智能绘画中途引擎'
+    ,走廊:'画廊'
+    ,画廊信息:'我的画廊'
   }
   ,mjchat:{
-    loading:'正在载入图片'
+    装货:'正在载入图片'
     ,openurl:'直接打开链接'
-    ,failReason:'失败原因：'
-    ,reload:'重新获取'
-    ,progress:'进度：'
-    ,wait:'任务已经提交请等待...'
-    ,reroll:'重绘'
-    ,wait2:'任务 {id} 已经提交请等待'
-    ,redrawEditing:'局部重绘编辑'
-    ,face:'换脸'
-    ,blend:'混图'
+    ,失败原因:'失败原因:'
+    ,再装:'重新获取'
+    ,进步:'进度:'
+    ,等待:'任务已经提交请等待...'
+    ,再轧:'重绘'
+    ,等待2:'任务{id}已经提交请等待'
+    ,重绘:'局部重绘编辑'
+    ,脸:'换脸'
+    ,混合:'混图'
     ,draw:'绘图'
     ,submiting:'提交中'
     ,submit:'提交'
