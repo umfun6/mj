@@ -29,7 +29,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: umfun/umfun:tagname
+          images: umfun/umfun
           tags: |
             type=raw,value=latest
             type=ref,event=tag
